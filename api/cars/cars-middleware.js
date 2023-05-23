@@ -38,7 +38,7 @@ const checkVinNumberUnique = async (req, res, next) => {
         return res.status(400).json({ message: 'Vin numarası kontrol edilirken bir hata oluştu.' });
 
       }
-    };
+    }
 
     module.exports =  {
       checkCarId,
